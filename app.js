@@ -77,3 +77,20 @@
 // document.write("<h3>CAR AT LAST INDEX :</h3>" +cars[4] + "</br>");
 
 // QUESTION 11
+// const students = ["HUMZA","ASHAR","BILAL"];
+// const score = ["320","230","480"];
+// const totalMarks = (500);
+// const percentageHumza = (score[0]/totalMarks*100);
+// const percentageAshar = (score[1]/totalMarks*100);
+// const percentageBilal = (score[2]/totalMarks*100);
+// console.log(students);
+// console.log(score);
+// console.log(totalMarks);
+// console.log(percentageHumza);
+// console.log(percentageAshar);
+// console.log(percentageBilal);
+// document.write(`Score of ${students[0]} is ${score[0]}.Percentage:${percentageHumza}% </br>`)
+// document.write(`Score of ${students[1]} is ${score[2]}.Percentage:${percentageAshar}% </br>`)
+// document.write(`Score of ${students[1]} is ${score[2]}.Percentage:${percentageBilal}% </br>`)
+
+// QUESTION 12
