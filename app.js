@@ -66,3 +66,14 @@
 // movies.push("4) INSIDE OUT ")
 // console.log(movies);
 // document.write(movies.join("</br>"))
+
+// QUESTION 10
+// const cars = ["VOLVO" , "AUDI" , "CIVIC" , "FORD" , "LAMBORGHINI"];
+// document.write("<h1>FAVOURITE CARS</h1>" + "</br>");
+// document.write(cars);
+// document.write("<h3>FIRST INDEX OF THE ARRAY: 0</h3>" + "</br>");
+// document.write("<h3>CAR AT FIRST INDEX :</h3>" +cars[0] + "</br>");
+// document.write("<h3>LAST INDEX OF THE ARRAY: 4</h3>" + "</br>");
+// document.write("<h3>CAR AT LAST INDEX :</h3>" +cars[4] + "</br>");
+
+// QUESTION 11
