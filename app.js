@@ -30,7 +30,7 @@
 // QUESTION 8
 // document.write("<h1>QUALIFICATIONs</h1>")
 // const education =['SSC', 'HSC', 'BCS', 'BS', 'BCOM', 'MS', 'M. Phil', 'PhD']
-// const ul = document.querySelector("ol")
+// const ul = document.querySelector("ul")
 // console.log(education);
 // for(let i=0 ; i<education.length ; i++)
 // {ul.innerHTML+=(`<li>${education[i]}</li>`)}
@@ -92,5 +92,55 @@
 // document.write(`Score of ${students[0]} is ${score[0]}.Percentage:${percentageHumza}% </br>`)
 // document.write(`Score of ${students[1]} is ${score[2]}.Percentage:${percentageAshar}% </br>`)
 // document.write(`Score of ${students[1]} is ${score[2]}.Percentage:${percentageBilal}% </br>`)
-
+ 
 // QUESTION 12
+const ul = document.querySelector("ul")
+let arr = [];
+arr = ["apple ","banana ","orange ","grapes "]
+for (let i = 0; i < arr.length; i++) {
+ ul.innerHTML +=`<li>${arr[i]}</li>`}
+
+//  a
+//  const uL = document.querySelector(".ul")
+//  const input =document.querySelector("input")
+//  function add () {
+//     arr.unshift(input.value)
+//     for (let i = 0; i < arr.length; i++) {
+//         uL.innerHTML +=`<li>${arr[i]}</li>`}
+//         input.value = ""
+// }
+
+// b
+//   const uL = document.querySelector(".ul")
+//   const input =document.querySelector("input")
+//   function add () {
+//      arr.push(input.value)
+//      for (let i = 0; i < arr.length; i++) {
+//          uL.innerHTML +=`<li>${arr[i]}</li>`}
+//          input.value = ""
+//  }
+
+//a and c both are same 
+
+// d
+// const uul = document.querySelector(".ul")
+// arr.pop()
+// for (let i = 0; i < arr.length; i++) {
+//     uul.innerHTML +=`<li>${arr[i]}</li>`}
+
+// e
+// const uul = document.querySelector(".ul")
+// arr.shift()
+// for (let i = 0; i < arr.length; i++) {
+//     uul.innerHTML +=`<li>${arr[i]}</li>`}
+
+// f
+  const uL = document.querySelector(".ul")
+  const input =document.querySelector("input")
+  const inp =document.querySelector(".inp")
+  function add () {
+     for (let i = 0; i < arr.length; i++) {
+         uL.innerHTML +=`<li>${arr[i]}</li>`}
+
+         inp.value = ""
+}
